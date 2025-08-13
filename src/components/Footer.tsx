@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ContactPage = () => {
+const Footer = () => {
   return (
     <footer className="bg-black text-white min-h-screen flex flex-col justify-center items-center p-4 sm:p-6 md:p-8">
       <div className="w-full flex-grow flex flex-col justify-center items-center">
@@ -60,8 +60,8 @@ const ContactPage = () => {
         </div>
       </div>
       
-      <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 mt-4 sm:mt-2 md:mt-0.5 px-4 md:px-0">
-        <div className="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-6 text-gray-400">
+      <div className="w-full max-w-7xl   mx-auto flex flex-col md:flex-row justify-between items-center gap-4 mt-4 sm:mt-2 md:mt-0.5 px-4 md:px-0">
+        <div className="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-6 text-gray-100">
           <a className="group hover:text-white transition-colors duration-300 relative" href="/home">
             <span className="relative">
               Home
@@ -101,12 +101,12 @@ const ContactPage = () => {
         </div>
         <div className="text-gray-400 text-sm text-center md:text-right">
           Designed in <a className="group hover:text-white transition-colors duration-300 relative" href="https://framer.com" rel="noopener noreferrer" target="_blank">
-            <span className="relative">
+            <span className="relative text-white">
               Framer
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </span>
           </a> By <a className="group hover:text-white transition-colors duration-300 relative" href="#" target="_blank">
-            <span className="relative">
+            <span className="relative text-white">
               Thaer
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
             </span>
@@ -117,4 +117,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Footer;
